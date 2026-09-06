@@ -1,0 +1,59 @@
+ANP OFFSHORE DASHBOARD — V11 FINAL RELEASE CHECKLIST
+Date: 2026-09-06
+
+SOURCE / UPDATE REVIEW
+[PASS] Old 57-file baseline compared with new 102-file package.
+[PASS] All 14 REAL_Repaired baseline production files confirmed unchanged.
+[PASS] Name Edit migration checked against the latest package/dashboard.
+[PASS] Latest visible dashboard has no targeted legacy naming violations.
+
+PRODUCTION / STAR SCHEMA
+[PASS] 138,358 production allocation rows reconciled.
+[PASS] 2,037 production wells.
+[PASS] 134 production fields.
+[PASS] 218 production facilities.
+[PASS] 9 basins.
+[PASS] 8 reported states.
+[PASS] Production totals reconcile to source.
+
+INTERVENTIONS
+[PASS] 2,840 intervention events.
+[PASS] 2,161 matched intervention events.
+[PASS] 679 unmatched valid events retained through unknown-member handling.
+[PASS] 972 distinct matched production wells.
+
+ESP / SAVED MODEL MODULE
+[PASS] 429 condition-monitoring cohort rows in latest month.
+[PASS] 6 current-month failure rows excluded from scoring.
+[PASS] 423 scoreable equipment rows.
+[PASS] 162 saved alerts.
+[PASS] 129 scoreable rows linked to current ESP/BCS well status.
+[PASS] Saved ESP model remains separate from the new intervention target.
+
+LATEST ML ARCHITECTURE
+[PASS] Primary model-ready target: intervention within next 3 months.
+[PASS] 75,032 rows / 1,454 positives / 1.94% event rate.
+[PASS] No final intervention-model metrics are falsely claimed.
+[PASS] Secondary model-ready target: next-month oil production.
+[PASS] 75,181 rows; no final forecasting model falsely claimed.
+
+DASHBOARD FUNCTION / STRUCTURE
+[PASS] Dashboard QA: 49/49.
+[PASS] HTML IDs unique.
+[PASS] JavaScript DOM references resolved.
+[PASS] 33 charts mapped to 33 canvases.
+[PASS] 9 navigation sections mapped.
+[PASS] JavaScript syntax passes.
+[PASS] Production / intervention / saved-ESP filter scopes remain separated.
+[PASS] Animated section transitions installed.
+[PASS] Navigation animation replay and smooth top reset installed.
+[PASS] Reduced-motion accessibility fallback installed.
+[PASS] Executive scope title/subtitle hierarchy corrected.
+
+FINAL INTEGRATION
+[PASS] validate_v11_release.py => FINAL VALIDATION PASS.
+[PASS] Static GitHub Pages index equals the current V11 dashboard index.
+[PENDING AFTER UPLOAD] Final visual browser smoke test on the published GitHub Pages URL.
+
+EMAIL / LIVE BACKEND
+[UNCHANGED] Email/live-backend work intentionally remains parked and is not part of this static-dashboard update.

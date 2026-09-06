@@ -1,0 +1,20 @@
+{
+  "old_file_count": 57,
+  "new_file_count": 102,
+  "exact_common_or_mapped_files": 29,
+  "updated_files": 28,
+  "new_only_files": 45,
+  "real_repaired_exact_files": 14,
+  "production_rows": 138358,
+  "oil_total_m3": 1349274641.17446,
+  "water_total_m3": 723341114.31629,
+  "intervention_rows": 2840,
+  "intervention_matched": 2161,
+  "intervention_unmatched": 679,
+  "intervention_matched_wells": 972,
+  "esp_feature_rows": 33868,
+  "esp_latest_condition_rows": 429,
+  "esp_latest_failure_excluded": 6,
+  "esp_latest_scoreable": 423,
+  "legacy_name_violations_latest_package_or_visible_dashboard": 0
+}
